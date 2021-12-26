@@ -28,7 +28,8 @@ public class HdfcBank {
 		 
 		 // to text box 
 		 WebElement added = driver.findElement(By.id("dest")); 
-		 added.sendKeys("bangalore"); 
+		 added.sendKeys("bangalore");  
+		System.out.println("bangalore");
 		 
 		 
 		 
